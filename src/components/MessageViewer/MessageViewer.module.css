@@ -1,0 +1,10 @@
+.item{
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.subject {
+    border: solid lightgrey;
+    border-width: 2px 0;
+    padding: 0.5vw 0
+}

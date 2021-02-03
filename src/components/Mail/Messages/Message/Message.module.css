@@ -1,0 +1,25 @@
+.item {
+    word-wrap: break-word;
+    word-break: break-all;
+    transition: box-shadow 0.2s ease;
+}
+.item:hover {
+    background-color: #f5f7f7;
+    box-shadow: 0 2px 2px lightgrey;
+}
+
+.notFav {
+    color: gray;
+    transition: color 0.2s ease
+}
+.notFav:hover {
+    color: midnightblue;
+}
+
+.favorite {
+    color: #f4c84b;
+    transition: color 0.2s ease;
+}
+.favorite:hover {
+    color: #f48024
+}
